@@ -1,0 +1,8 @@
+{
+  "$schema": "https://oxc.rs/schema/oxlint.json",
+  "plugins": ["react", "nextjs", "typescript"],
+  "ignorePatterns": ["next-env.d.ts", ".agents/skills/shadcn/scripts/showcase-coverage.mjs"],
+  "rules": {
+    "no-console": "warn"
+  }
+}
